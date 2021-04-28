@@ -1,13 +1,12 @@
-/* ========== @@@@@ ========== */
 
 body {
     margin: 0px;
     overflow: hidden;
 }
 
-/* ========== HEADER ========== */
+/*==================================================*/
 
-.header {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,7 +16,7 @@ body {
     height: 60px;
 }
 
-.header-left {
+.nav-left {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -26,7 +25,7 @@ body {
     margin-left: 10px;
 }
 
-.header-right {
+.nav-right {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -35,7 +34,7 @@ body {
     margin-right: 17px;
 }
 
-.header a {
+nav a {
     padding: 3px;
     color: #000;
     font-family: Arial, sans-serif;
@@ -43,7 +42,7 @@ body {
     text-decoration: none;
 }
 
-.header a:hover {
+nav a:hover {
     text-decoration: underline;
 }
 
@@ -70,9 +69,9 @@ body {
     background-color: #3e76d5;
 }
 
-/* ========== MAIN ========== */
+/*==================================================*/
 
-.main {
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -94,7 +93,7 @@ body {
     width: 100%;
 }
 
-.search-bar {
+.search-area {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -107,7 +106,7 @@ body {
     border-radius: 25px;
 }
 
-.search-bar:hover {
+.search-area:hover {
     border: 1px solid transparent;
     box-shadow: 0px 0px 3px 3px #e0e0e0;
 }
@@ -135,7 +134,7 @@ body {
     color: #999;
 }
 
-.submit-bar {
+.submit-area {
     display: flex;
     justify-content: center;
     width: 475px;
@@ -161,9 +160,9 @@ body {
     color: #000;
 }
 
-/* ========== FOOTER ========== */
+/*==================================================*/
 
-.footer {
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -191,7 +190,7 @@ body {
     margin-right: 17px;
 }
 
-.footer a {
+footer a {
     padding: 10px 13px;
     color: #555;
     font-family: Arial, sans-serif;
@@ -199,14 +198,14 @@ body {
     text-decoration: none;
 }
 
-.footer a:hover {
+footer a:hover {
     text-decoration: underline;
 }
 
-/* ========== MEDIA ========== */
+/*==================================================*/
 
 @media (max-width: 575px) {
-    .footer {
+    footer {
         flex-direction: column;
         height: 70px;
     }
