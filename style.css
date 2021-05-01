@@ -1,7 +1,7 @@
 
 body {
     margin: 0px;
-    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*==================================================*/
@@ -37,7 +37,6 @@ nav {
 nav a {
     padding: 3px;
     color: #000;
-    font-family: Arial, sans-serif;
     font-size: 13px;
     text-decoration: none;
 }
@@ -59,7 +58,6 @@ nav a:hover {
     cursor: default;
     background-color: #4285f4;
     color: #fff;
-    font-family: Arial, sans-serif;
     font-size: 13px;
     font-weight: bold;
     text-decoration: none;
@@ -95,7 +93,7 @@ main {
 
 .search-area {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     max-width: 475px;
     width: 80%;
@@ -117,11 +115,11 @@ main {
     border: none;
     outline: none;
     color: #000;
-    font-family: Arial, sans-serif;
     font-size: 16px;
 }
 
 .icon-search {
+    margin-left: 10px;
     transform: scale(0.9);
     cursor: default;
     user-select: none;
@@ -129,6 +127,8 @@ main {
 }
 
 .icon-mic {
+    margin-right: 10px;
+    transform: scale(0.9);
     cursor: pointer;
     user-select: none;
     color: #999;
@@ -137,6 +137,7 @@ main {
 .submit-area {
     display: flex;
     justify-content: center;
+    max-width: 80%;
     width: 475px;
 }
 
@@ -150,7 +151,6 @@ main {
     cursor: pointer;
     background-color: #f3f3f3;
     color: #555;
-    font-family: Arial, sans-serif;
     font-size: 15px;
 }
 
@@ -193,7 +193,6 @@ footer {
 footer a {
     padding: 10px 13px;
     color: #555;
-    font-family: Arial, sans-serif;
     font-size: 14px;
     text-decoration: none;
 }
@@ -205,8 +204,12 @@ footer a:hover {
 /*==================================================*/
 
 @media (max-width: 575px) {
+    .google-logo {
+        width: 222px;
+        height: auto;
+    }
     footer {
         flex-direction: column;
-        height: 70px;
+        height: 72px;
     }
 }
