@@ -218,3 +218,12 @@ footer a:hover {
         height: 72px;
     }
 }
+
+@media (max-height: 400px) {
+    main {
+        margin-top: 20%;
+    }
+    footer {
+        display: none;
+    }
+}
